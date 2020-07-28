@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.626" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset="1" stop-color="#f700ff"/>
+    </radialGradient>
+  </defs>
+  <circle id="PlanetaNeon" cx="250" cy="250" r="250" fill="url(#radial-gradient)"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1005" height="757" viewBox="0 0 1005 757">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.32" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset="1"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0.32" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7ff00"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1" y1="0.5" x2="0.32" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1aff00"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1" y1="0.5" x2="0.32" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f700ff"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="SistemaRadial" transform="translate(-476 -32)">
+    <circle id="Planeta1" cx="250" cy="250" r="250" transform="translate(710 289)" fill="url(#radial-gradient)"/>
+    <circle id="Planeta2" cx="50" cy="50" r="50" transform="translate(476 646)" fill="url(#linear-gradient)"/>
+    <circle id="Planeta3" cx="25" cy="25" r="25" transform="translate(1431 621)" fill="url(#linear-gradient-2)"/>
+    <circle id="Planeta4" cx="100" cy="100" r="100" transform="translate(1158 32)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1005" height="714" viewBox="0 0 1005 714">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.561" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset="1" stop-color="#f700ff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.708" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb300"/>
+      <stop offset="1" stop-color="red"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.564" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="0.5" cy="0.5" r="0.617" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1aff00"/>
+      <stop offset="1" stop-color="#f7ff00"/>
+    </radialGradient>
+  </defs>
+  <g id="SistemaNeon" transform="translate(-476 -32)">
+    <circle id="Planeta1" cx="250" cy="250" r="250" transform="translate(697 196)" fill="url(#radial-gradient)"/>
+    <circle id="Planeta2" cx="50" cy="50" r="50" transform="translate(476 646)" fill="url(#radial-gradient-2)"/>
+    <circle id="Planeta3" cx="25" cy="25" r="25" transform="translate(1431 621)" fill="url(#radial-gradient-3)"/>
+    <circle id="Planeta4" cx="100" cy="100" r="100" transform="translate(1158 32)" fill="url(#radial-gradient-4)"/>
+  </g>
+</svg>

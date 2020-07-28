@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1005" height="757" viewBox="0 0 1005 757">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+        transform: translate(476px, 646px);
+        animation-name: flotar-2;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }@keyframes flotar-2{
+        0%{transform: translate(476px, 646px);} 
+        50%{transform: translate(496px, 685px);}
+        100%{transform: translate(476px, 646px);}
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+        transform: translate(1431px, 621px);
+        animation-name: flotar-3;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes flotar-3{
+        0%{transform: translate(1431px, 621px);} 
+        50%{transform: translate(1421px, 598px);}
+        100%{transform: translate(1431px, 621px);}
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-4);
+        transform: translate(1158px,32px);
+        animation-delay: 500ms;
+        animation-name: flotar-4;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes flotar-4{
+        0%{transform: translate(1158px,32px);} 
+        50%{transform: translate(1180px,64px);}
+        100%{transform: translate(1158px,32px);}
+      }
+      
+    </style>
+    <linearGradient id="linear-gradient" x1="1" y1="0.5" x2="0.32" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f700ff"/>
+      <stop offset="1"/>
+      <animate attributeType="XML" attributeName="x2" from="1" to="-1" dur="3s" fill="freeze"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1" y1="0.5" x2="0.32" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f7ff00"/>
+      <stop offset="1"/>
+      <animate attributeType="XML" attributeName="x2" from="1" to="-1" dur="3s" fill="freeze"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1" y1="0.5" x2="0.32" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1aff00"/>
+      <stop offset="1"/>
+      <animate attributeType="XML" attributeName="x2" from="1" to="-1" dur="3s" fill="freeze"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="1" y1="0.5" x2="0.32" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00f6ff"/>
+      <stop offset="1"/>
+      <animate attributeType="XML" attributeName="x2" from="1" to="-1" dur="3s" fill="freeze"/>
+    </linearGradient>
+  </defs>
+  <g id="SistemaNormal" transform="translate(-476 -32)">
+    <circle id="Planeta1" class="cls-1" cx="250" cy="250" r="250" transform="translate(710 289)"/>
+    <circle id="Planeta2" class="cls-2" cx="50" cy="50" r="50"/>
+    <circle id="Planeta3" class="cls-3" cx="25" cy="25" r="25"/>
+    <circle id="Planeta4" class="cls-4" cx="100" cy="100" r="100">
+    </circle>
+
+  </g>
+</svg>

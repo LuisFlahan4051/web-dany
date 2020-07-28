@@ -8,13 +8,6 @@
     animation-delay: 3s;
 }
 
-.circuloPrincipal{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: aqua;
-}
-
 @keyframes loader-animation{
     to{
         transform: translateY(-100%);
