@@ -8,6 +8,11 @@
     animation-delay: 3s;
 }
 
+#loader img{
+    height: 500px;
+    width: 500px;
+}
+
 @keyframes loader-animation{
     to{
         transform: translateY(-100%);

@@ -2,7 +2,7 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#linear-gradient);
+        fill: url(#linear-gradient-4);
       }
 
       .cls-2 {
@@ -31,7 +31,7 @@
       }
 
       .cls-4 {
-        fill: url(#linear-gradient-4);
+        fill: url(#linear-gradient);
         transform: translate(1158px,32px);
         animation-delay: 500ms;
         animation-name: flotar-4;

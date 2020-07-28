@@ -8,6 +8,7 @@
     <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.626" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#00f6ff"/>
       <stop offset="1" stop-color="#f700ff"/>
+      <animate attributeType="XML" attributeName="r" from="0.626" to="2" dur="2s" values="0.6; 2; 0.6" keyTimes="0;0.5;1" repeatCount="indefinite"/>
     </radialGradient>
   </defs>
   <circle id="PlanetaNeon" class="cls-1" cx="250" cy="250" r="250"/>
